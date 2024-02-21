@@ -4,68 +4,68 @@ body{
 
 header{
     display: flex;
-    margin: 40px 100px;
-    margin-bottom: 30px;
+    margin: 2.5rem 6.25rem;
+    margin-bottom: 1.875rem;
     justify-content: space-between;
 }
 /* logo */
 header .div1{
     display: flex;
-    gap: 30px;
+    gap: 1.875rem;
 }
 header .logo{
-    width: 25px;
-    height: 35px;
+    width: 1.563rem;
+    height: 2.188rem;
 }
 header .logo_div{
     display: flex;
-    gap: 7px;
+    gap: 0.438rem;
     cursor: pointer;
     
 }
 header .title{
-    font-size: 28px;
+    font-size: 1.75rem;
     color: rgb(8, 70, 103);
     font-weight: 700;
     margin-top: 0;
 }
-header ul{
+header .menue{
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
     color:rgb(8, 70, 103) ;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
-header li{
+header a{
     cursor: pointer;}
-header li:hover{
-    border-bottom: 2px solid rgb(8, 70, 103);
+header a:hover{
+    text-decoration: underline;
 }
 header .div2{
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
     cursor: pointer;
 }
 
 header .cart{
     display: flex;
     align-items: center;
-    gap: 3px;
+    gap: 0.188rem;
     border: 0.5px solid rgb(202, 203, 204);
-    height: 39px;
-    width: 120px;
-    border-radius: 40px;
+    height: 2.438rem;
+    width: 7.5rem;
+    border-radius: 2.5rem;
 }
 header .p2{
-    margin-top: 8px;
+    margin-top: 0.5rem;
     color: rgb(8, 70, 103);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
 }
 header .img1, .img2{
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 header .search{
     cursor: pointer;
@@ -79,40 +79,40 @@ body .divShop{
     background-size: cover;
     text-align: center;
     background-repeat: no-repeat;
-    height: 250px;
-    font-size: 50px;
-    padding-top: 120px;
-    margin-bottom: 100px;
+    height: 15.625rem;
+    font-size: 3.125rem;
+    padding-top: 7.5rem;
+    margin-bottom: 6.25rem;
 }
 
 .div4{
     background-image: url("https://res.cloudinary.com/dtrvdcebd/image/upload/v1708266045/Clothy/l04wim0gq4l6c3rk5p32.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 800px;
-    height: 120px;
+    width: 50rem;
+    height: 7.5rem;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
-    font-size: 30px;
-    margin:30px auto;
-    padding: 50px;
+    font-size: 1.875rem;
+    margin:1.875rem auto;
+    padding: 3.125rem;
 }
 .div4 p{
-    width: 200px;
+    width: 12.5rem;
 }
 .div4 .input{
-    height: 50px;
-    width: 220px;
+    height: 3.125rem;
+    width: 13.75rem;
     border: none;
-    padding-left: 10px;
+    padding-left: 0.625rem;
     border-radius: 10px;
 }
 .div4 .subscribe_btn{
-    height: 50px;
-    width: 150px;
+    height: 3.125rem;
+    width: 9.375rem;
     border-radius: 10px;
     border: none;
     color: #ffff;
@@ -126,18 +126,18 @@ body .divShop{
 
 footer{
     display: flex;
-    margin: 0px 250px;
-    margin-bottom: 20px;
+    margin: 0 15.625rem;
+    margin-bottom: 1.25rem;
 }
 footer .div1{
-    width: 150px;
+    width: 9.375rem;
 }
 footer .div{
     text-align: right;
 }
 footer .p1{
     color: rgb(12, 97, 143);
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
     cursor: pointer;
 }
@@ -146,52 +146,52 @@ footer .p1:hover{
 }
 footer .p2{
     color: rgb(54, 54, 54);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
-    margin-bottom: -10px;
+    margin-bottom: -0.625rem;
 }
 footer .p3{
     color: rgb(92, 92, 92);
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 600;
 }
 footer .div2{
     text-align: center;
-    margin: 10px 0px;
+    margin: 0.625rem 0;
 }
 footer .logo{
-    width: 25px;
-    height: 35px;
+    width: 1.563rem;
+    height: 2.188rem;
 }
 footer .logo_div{
     display: flex;
-    gap: 7px;
+    gap: 0.438rem;
     justify-content: center;
     cursor: pointer;
 }
 footer .title{
-    font-size: 25px;
+    font-size: 1.563rem;
     color: rgb(9, 82, 121);
     font-weight: 700;
-    margin-top: 3px;
+    margin-top: 0.188rem;
 }
 footer .paragraph{
-    margin: 10px 10px;
+    margin: 0.625rem 0.625rem;
     color: gray;
     text-align: center;
-    width: 300px;
-    font-size: 14px;
+    width: 18.75rem;
+    font-size: 0.875rem;
 }
 footer .img1{
-    width: 35px;
-    margin: 5px;
+    width: 2.188rem;
+    margin: 0.313rem;
     cursor: pointer;
 }
 footer .img1:hover{
     scale: 1.2;
 }
 .footer{
-    font-size: 11px;
+    font-size: 0.688rem;
     color: rgb(90, 90, 90);
     text-align: center;
 }
@@ -201,63 +201,63 @@ section{
 
 section .categoryDiv{
     background-color: rgb(249 249 249);
-    width: 270px;
-    height: 350px;
-    margin-left: 80px;
+    width: 16.875rem;
+    height: 21.875rem;
+    margin-left: 5rem;
     border-radius:20px ;
 
 }
 section .category{
     background-image: url("https://res.cloudinary.com/dtrvdcebd/image/upload/v1708266044/Clothy/giywnwhsomoybyi9vgxj.png");
     color: #ffff;
-    margin: 10px;
+    margin: 0.625rem;
     background-size: cover;
     border-radius: 10px;
     text-align: center;
-    font-size: 12px;
-    width: 90px;
-    height: 20px;
-    padding-top: 5px;
+    font-size: 0.75rel;
+    width: 5.625rem;
+    height: 1.25rem;
+    padding-top: 0.313rem;
 
 }
 section .productImg{
     border-radius: 30px;
-    width: 200px;
-    margin-left: 25px;
+    width: 12.5rem;
+    margin-left: 1.563rem;
 }
 section .div{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 3.125rem;
 }
 
 section .div1{
-    width: 500px;
+    width: 31.25rem;
     text-align: left;
-    margin: 30px 30px;
+    margin: 1.875rem 1.875rem;
 }
 section .productName{
-    font-size: 23px;
+    font-size: 1.438rem;
     color: rgb(8, 70, 103);
     font-weight: 600;
 }
 section .stars{
-    width: 100px;
-    height: 20px;
+    width: 6.25rem;
+    height: 1.25rem;
 }
 section .productPrix{
-    font-size: 20px;
+    font-size: 1.25rem;
     color: rgb(8, 70, 103);
     font-weight: 600;    
 }
 
 section .description{
-    font-size: 13px;
+    font-size: 0.813rem;
     color: rgb(111, 110, 110);
     margin-bottom:30px ;
 }
 section .quantity{
-    font-size: 15px;
+    font-size: 0.938rem;
     color: rgb(8, 70, 103);
     font-weight: 600; 
 }
@@ -265,21 +265,21 @@ section .num{
     border: 1px solid rgb(8, 70, 103);
     text-align: center;
     border-radius:5px ;
-    height: 35px;
-    width: 60px;
-    margin-right: 15px;
-    margin-left: 15px;
+    height: 2.188rem;
+    width: 3.75rem;
+    margin-right: 0.938rem;
+    margin-left: 0.938rem;
 }
 section .paragraph{
-    width: 550px;
+    width: 34.375rem;
     text-align: center;
-    margin: 10px 350px;
-    font-size: 14px;
+    margin: 0.625rem 21.875rem;
+    font-size: 0.875rem;
     color: rgb(110, 110, 110);
 }
 section .button1{
-    width:120px ;
-    height: 40px;
+    width:7.5rem ;
+    height: 2.5rem;
     border-radius: 10px;
     border: none;
     background-color: rgb(8, 70, 103);
@@ -290,13 +290,13 @@ section .button1:hover{
     background-color: rgb(5, 49, 73);
 }
 section .div3{
-    margin: 50px;
+    margin: 3.125rem;
 }
 section .button2{
-    width: 180px;
-    height: 40px;
+    width: 11.25rem;
+    height: 2.5rem;
     border: none;
-    margin: 20px;
+    margin: 1.25rem;
     color: #ffff;
     border-radius: 10px;
     font-weight: 600;
@@ -310,10 +310,10 @@ section .button2:hover{
 
 }
 section .button3{
-    width: 180px;
-    height: 40px;
+    width: 11.25rem;
+    height: 2.5rem;
     border: none;
-    margin: 20px;
+    margin: 1.25rem;
     color: rgb(8, 70, 103);
     font-weight: 600;
     border-radius: 10px;
@@ -323,14 +323,4 @@ section .button3{
 section .button3:hover{
     background-color: rgb(4, 36, 54);
     color: #ffff;
-
 }
-
-
-
-
-
-
-
-
-

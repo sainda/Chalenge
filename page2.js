@@ -1,11 +1,13 @@
-async function getProduct(){
-    const response=fetch('https://fakestoreapi.com/products/2')
-    .then(res=>res.json())
-    return response
+async function getProduct(id){
+    const response=await fetch('https://fakestoreapi.com/products/' + id)
+    // .then(res=>res.json())
+    const product=await response.json()
+    return product
 }
 
 async function main(){
-    let product =await getProduct()
+    let productId=localStorage.getItem("selectedProductId")
+    let product =await getProduct(productId)
     console.log(product)
 
     let categoryDiv=document.createElement("div")

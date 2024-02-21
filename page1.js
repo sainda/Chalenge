@@ -46,10 +46,16 @@ async function main(){
     div2.appendChild(productPrix)
     div2.appendChild(stars)
 
-    productDiv.addEventListener('click', function() {
-        window.location.href = (`page2.html`);
-  })
+    productDiv.addEventListener("click", function(){
+      redirectFunction(product.id);
+  });
+    
   
-}}
+  }
+  function redirectFunction (productId){
+      localStorage.setItem("selectedProductId",productId)
+      window.location.replace("page2.html")
+  }
+}
 
 main()
